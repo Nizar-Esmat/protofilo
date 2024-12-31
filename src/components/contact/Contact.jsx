@@ -17,6 +17,7 @@ export default function Contact() {
           </div>
         </div>
 
+        
         <div className={styles.card}>
           <div className={styles.icon}>
             <i className="fa-solid fa-envelope"></i>
