@@ -13,12 +13,13 @@ export default function Main() {
         </h2>
         <h3>ITI Student</h3>
         <a
-          href="/public/cv/Nizar - Resume.pdf"
+          href="./Nizar - Resume.pdf"
           className={styles['main-ptn']}
           download="Nizar-Resume.pdf"
         >
           Download My CV
         </a>
+
         <div className={styles['social-icons']}>
           <a href="#" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} />
