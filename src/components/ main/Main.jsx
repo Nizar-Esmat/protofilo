@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './main.module.css'; 
+import styles from './main.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +12,13 @@ export default function Main() {
           Hello, I'm Nizar Esmat <br /> <span className={styles.span}>Full Stack Using Python</span>
         </h2>
         <h3>ITI Student</h3>
-        <a href="#projects" className={styles['main-ptn']}>View My Work</a>
+        <a
+          href="/public/cv/Nizar - Resume.pdf"
+          className={styles['main-ptn']}
+          download="Nizar-Resume.pdf"
+        >
+          Download My CV
+        </a>
         <div className={styles['social-icons']}>
           <a href="#" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} />
